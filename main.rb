@@ -1,4 +1,5 @@
 require 'sinatra'
+require './song'
 require 'sinatra/reloader'
 
 get '/' do
