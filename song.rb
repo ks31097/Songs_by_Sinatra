@@ -18,3 +18,8 @@ get '/songs' do
   @songs = Song.all
   erb :songs
 end
+
+get '/song/:id' do
+  @song = Song.get(params[:id])
+  erb :show_song
+end
