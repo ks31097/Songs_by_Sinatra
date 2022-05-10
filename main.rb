@@ -6,10 +6,12 @@ get '/' do
 end
 
 get '/about' do
+  @title = 'All About This Website'
   erb :about
 end
 
 get '/contact' do
+  @title = 'Our Contacts'
   erb :contact
 end
 
