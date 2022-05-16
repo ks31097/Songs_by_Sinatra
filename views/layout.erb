@@ -25,15 +25,15 @@
     <link rel="icon" href="/images/favicon.ico">
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h1>Songs By Sinatra</h1>
+        <%= erb :nav %>
+      </header>
 
-    <header>
-      <h1>Songs By Sinatra</h1>
-      <%= erb :nav %>
-    </header>
-
-    <section>
-      <%= yield %>
-    </section>
-
+      <section>
+        <%= yield %>
+      </section>
+    </div>
   </body>
 </html>

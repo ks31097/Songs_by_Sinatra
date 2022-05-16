@@ -12,7 +12,6 @@ class Song
   property :lyrics, Text
   property :length, Integer
   property :released_on, Date
-
 end
 
 DataMapper.finalize

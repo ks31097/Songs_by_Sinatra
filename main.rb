@@ -2,7 +2,7 @@ require 'sinatra'
 require './song'
 require 'sinatra/reloader'  if development?
 
-set :port, 1234
+set :port, 4567
 
 get '/' do
   erb :home
